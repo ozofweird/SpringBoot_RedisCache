@@ -13,12 +13,12 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://[IP 주소]:3306/test?useSSL=false
     username: root
-    password: [비밀번]
+    password: [비밀번호]
     hikari:
       initialization-fail-timeout: 0
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     generate-ddl: true
     show-sql: true
-    hibernate:호
+    hibernate:
       ddl-auto: create
